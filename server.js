@@ -3,7 +3,7 @@
 const Hapi = require('hapi');
 const server = new Hapi.Server();
 const getPeople = require('./getPeople.js');
-const env = require('env2')('./config.env'));
+const env = require('env2')('./config.env');
 
 
 server.connection({
