@@ -21,15 +21,8 @@
   - Try `SELECT * FROM people` and that should return all the columns and rows inserted in *build_database.sql*
 9. Setup basic Hapi server using five different endpoints and create *getPeople.js* module to make queries to our database through these endpoints.
 
-### How to deploy an app (with a database to HEOROKU)
+### How to deploy an app (with a database to HEROKU)
 
-If you created your database on https://postgres.heroku.com/, you will not see the database via your heroku pg:info command. What you can do to add your database to your application, however, would be to:
-
-1. Log into https://postgres.heroku.com/.
-2. Click on the database you want to attach to your application.
-3. Under 'Connection Settings', click the configuration button at the top right.
-4. Then click the 'URL' option.
-5. Copy your database URL, this should be something like "postgres://blah:blah@ec2-23-23-122-88.compute-1.amazonaws.com:5432/omg".
-6. In your application, on the command line, run heroku config:set DATABASE_URL=postgres://blah:blah@ec2-23-23-122-88.compute-1.amazonaws.com:5432/omg
+In your application, on the command line, run heroku config:set DATABASE_URL=postgres://blah:blah@ec2-23-23-122-88.compute-1.amazonaws.com:5432/omg
 
 Reference [stackoverflow](http://stackoverflow.com/questions/11700602/how-can-i-attach-a-database-to-an-app-in-heroku)
