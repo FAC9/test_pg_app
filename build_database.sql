@@ -11,13 +11,13 @@ CREATE TABLE people (
   glasses      BOOLEAN       NOT NULL    DEFAULT  TRUE
 );
 
-INSERT INTO people(firstName, surname, superpower, age, glasses) VALUES (
+INSERT INTO people(firstName, surname, superpower, age) VALUES (
   'Marina', 'Sideri', 'Mind-reading', 29);
-INSERT INTO people(firstName, surname, superpower, age, glasses) VALUES (
+INSERT INTO people(firstName, surname, superpower, age) VALUES (
   'Tom', 'Barrett', 'Flight', 27);
 INSERT INTO people(firstName, surname, superpower, age, glasses) VALUES (
   'Will', 'Savage', 'Invisibility', 24, false);
-INSERT INTO people(firstName, surname, superpower, age, glasses) VALUES (
+INSERT INTO people(firstName, surname, superpower, age) VALUES (
   'Nori', 'Denes', 'Seeing the future', 24);
 
 COMMIT;
