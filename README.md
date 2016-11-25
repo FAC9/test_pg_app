@@ -13,5 +13,6 @@
 
 ### How to apply some SQL commands of your choice to retrieve and modify a database;
 
-6. Create build_database.sql file to populate table
+6. Create build_database.sql file to populate a table called people
 7. Create build_database.js to make SQL query to the database
+8. Run `node build_database.js` to run the server and try different SQL commands to retrieve and modify the database:
