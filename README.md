@@ -19,7 +19,7 @@
   - Make sure that no errors were thrown when running the *build_database.js*
   - Run the postgres server running `psql`
   - Try `SELECT * FROM people` and that should return all the columns and rows inserted in *build_database.sql*
-9. Setup basic Hapi server using a single endpoint to `/people` and create *getPeople.js* module to make queries to our database through this endpoint.
+9. Setup basic Hapi server using five different endpoints and create *getPeople.js* module to make queries to our database through these endpoints.
 
 ### How to deploy an app (with a database to HEOROKU)
 
