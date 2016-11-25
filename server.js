@@ -17,6 +17,7 @@ const routes = {
     getPeople((error, people) => {
       if (error) console.log('Sorry, no results!', error);
       console.log(people);
+      console.log('---------------------');
       reply(people);
     });
   }
